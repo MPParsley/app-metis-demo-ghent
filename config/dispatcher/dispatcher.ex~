@@ -1,0 +1,14 @@
+defmodule Dispatcher do
+  use Matcher
+  define_accept_types [
+    json: [ "application/json", "application/vnd.api+json" ] 
+  ] 
+end
+
+  get "/uri-info/*path", %{ accept: %{ json: true } } do
+    forward conn, path, "http://uri-info/"
+  end
+
+  get "/resource-labels/*path", %{ accept: %{ json: true } } do
+    forward conn, path, "http://resource-labels-cache/"
+  end
