@@ -41,7 +41,7 @@ defmodule Dispatcher do
     forward conn, path, "http://uri-info/"
   end
 
-  post "/sparql/*path", %{ layer: :sparql, accept: %{ sparql: true} } do
+  match "/sparql/*path", %{ layer: :sparql, accept: %{ sparql: true} } do
     forward conn, path, "http://sparqlproxy/sparql/"
   end
 
