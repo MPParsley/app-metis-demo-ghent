@@ -23,7 +23,7 @@ jobs:
           context: .
           push: true
           tags: |
-            stadgent/metis:latest
-            stadgent/metis:${{ github.sha }}
-          cache-from: type=registry,ref=stadgent/metis:latest
+            mpparsley/metis:latest
+            mpparsley/metis:${{ github.sha }}
+          cache-from: type=registry,ref=mpparsley/metis:latest
           cache-to: type=inline
