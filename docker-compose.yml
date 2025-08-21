@@ -31,11 +31,15 @@ services:
       - "logging=true"
     logging: *default-logging
     ports:
-      - 80:80
+      - 8890:80
+    networks:
+      default:
+        aliases:
+          - backend      
   dispatcher:
     image: semtech/mu-dispatcher:2.1.0-beta.2
     volumes:
-      - ./config/dispatcher:/config
+      - ./config/dispatcher:/config:Z
     labels:
       - "logging=true"
     logging: *default-logging
@@ -43,12 +47,14 @@ services:
   frontend:
     build: ./frontend-metis-ghent
     environment:
-      EMBER_METIS_BASE_URL: "https://stad.gent/"
-    links:
-      - identifier:backend
+      EMBER_METIS_BASE_URL: "https://qa.stad.gent/"
     labels:
       - "logging=true"
-  sparqlproxy:
-    image: nginx:alpine
+  virtuoso:
+    image: docker.io/redpencil/virtuoso:1.2.0-rc.1
     volumes:
-      - ./config/sparql-proxy.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./data/db/:/data/:Z
+    environment:
+      SPARQL_UPDATE: "true"
+      DBA_PASSWORD: 'setme
+  
