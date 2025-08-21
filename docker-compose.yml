@@ -48,13 +48,11 @@ services:
     build: ./frontend-metis-ghent
     environment:
       EMBER_METIS_BASE_URL: "https://qa.stad.gent/"
+      EMBER_METIS_SERVICE_BASE: "/data"
     labels:
       - "logging=true"
   virtuoso:
     image: docker.io/redpencil/virtuoso:1.2.0-rc.1
     volumes:
       - ./data/db/:/data/:Z
-    environment:
-      SPARQL_UPDATE: "true"
-      DBA_PASSWORD: 'setme
   
