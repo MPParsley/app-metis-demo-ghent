@@ -27,6 +27,8 @@ services:
     image: semtech/mu-identifier:1.10.3
     environment:
       SESSION_COOKIE_SECURE: "on"
+      MU_SPARQL_TIMEOUT: "10000"
+      MU_SPARQL_UPDATE_TIMEOUT: "10000"
     labels:
       - "logging=true"
     logging: *default-logging
