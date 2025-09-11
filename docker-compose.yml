@@ -56,3 +56,8 @@ services:
     volumes:
       - ./data/db/:/data/:Z
   
+  cool-uris:
+    image: nvdk/cool-uris:latest
+    environment:
+      SPARQL_ENDPOINT: http://virtuoso:8890/sparql
+    logging: *default-logging
