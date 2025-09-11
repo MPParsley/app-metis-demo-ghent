@@ -10,3 +10,9 @@ services:
   virtuoso:
     volumes:
       - ./data/dev-data:/data/toLoad
+  dispatcher:
+    environment:
+      BASE_URI: "https://qa.stad.gent"
+  frontend:
+    environment:
+      EMBER_METIS_BASE_URL: "https://qa.stad.gent/"

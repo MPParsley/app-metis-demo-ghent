@@ -2,7 +2,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix gdv: <http://localhost/data/ns/data-processing/> .
+@prefix gdv: <http://stad.gent/data/ns/data-processing/> .
 @prefix toestemming: <http://data.vlaanderen.be/ns/toestemming#> .
 @prefix m8g: <http://data.europa.eu/m8g/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -55,772 +55,772 @@
   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verwerkingsgronden>;
   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verwerkingsgronden> .
 
-<http://localhost/data/ns/data-processing/types/88118d7f-908b-ef11-ac21-000d3aafe340>
+<http://stad.gent/data/ns/data-processing/types/88118d7f-908b-ef11-ac21-000d3aafe340>
   a skos:Concept;
   skos:prefLabel "3-00-03 Telefonie referenties";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/225fcc8b-908b-ef11-ac21-000d3aafe340>
+<http://stad.gent/data/ns/data-processing/types/225fcc8b-908b-ef11-ac21-000d3aafe340>
   a skos:Concept;
   skos:prefLabel "3-00-04 Email adres";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/c70db69f-908b-ef11-ac21-000d3aafe340>
+<http://stad.gent/data/ns/data-processing/types/c70db69f-908b-ef11-ac21-000d3aafe340>
   a skos:Concept;
   skos:prefLabel "3-00-05 Persoonlijke sociale media contact referenties";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/5a50b1dd-908b-ef11-ac21-000d3aafe340>
+<http://stad.gent/data/ns/data-processing/types/5a50b1dd-908b-ef11-ac21-000d3aafe340>
   a skos:Concept;
   skos:prefLabel "3-01-01 Identificatiegegevens uitgegeven door overheidsdiensten";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/08c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/08c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "A: Identificatiegegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "C: Financiële bijzonderheden";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "D: Persoonlijke kenmerken";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/0ec587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/0ec587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "E: Fysieke gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "F: Leefgewoonten";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/12c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/12c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "G: Psychische gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "H. Samenstelling van het gezin";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/16c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/16c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "I. Vrijetijdsbesteding en interessen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/18c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/18c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "J. Lidmaatschappen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "K. Gerechtelijke gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "L. Consumptiegewoonten";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "M. Woningkenmerken";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/20c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/20c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "N. Gegevens betreffende de gezondheid";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "O. Opleiding en vorming";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "P. Beroep en betrekking";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "Q. Rijksregisternummer";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/28c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/28c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "R. Raciale of etnische gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/2ac587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/2ac587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "S. Gegevens over het seksuele leven";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/2cc587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/2cc587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "T. Politieke opvattingen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/30c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/30c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "U. Filosofische of religieuze overtuigingen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "W. Beeldopnamen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/34c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/34c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "X. Geluidsopnamen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/36c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/types/36c587d2-6648-e811-80dd-005056932858>
   a skos:Concept;
   skos:prefLabel "Y. Andere categorie van gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48>
   a skos:Concept;
   skos:prefLabel "A1: Persoonlijke identificatiegegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/0c82f0bb-af59-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/types/0c82f0bb-af59-e811-80da-005056933a48>
   a skos:Concept;
   skos:prefLabel "A2: Elektronische identificatiegegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/f712a7e0-af59-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/types/f712a7e0-af59-e811-80da-005056933a48>
   a skos:Concept;
   skos:prefLabel "A3: Elektronische lokalisatiegegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/fc4a6e23-b059-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/types/fc4a6e23-b059-e811-80da-005056933a48>
   a skos:Concept;
   skos:prefLabel "A4: Biometrische identificatiegegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/d9f8ce55-c759-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/types/d9f8ce55-c759-e811-80da-005056933a48>
   a skos:Concept;
   skos:prefLabel "N3: Risicosituaties en risicogedragingen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/20523184-c759-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/types/20523184-c759-e811-80da-005056933a48>
   a skos:Concept;
   skos:prefLabel "N4: Genetische gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/24b7df9c-c759-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/types/24b7df9c-c759-e811-80da-005056933a48>
   a skos:Concept;
   skos:prefLabel "N5: Gegevens met betrekking tot de zorg";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/64c2679d-c859-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/types/64c2679d-c859-e811-80da-005056933a48>
   a skos:Concept;
   skos:prefLabel "V: Lidmaatschap van een vakvereniging";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa>
+<http://stad.gent/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa>
   a skos:Concept;
   skos:prefLabel "N1: Lichamelijke gezondheid";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa>
+<http://stad.gent/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa>
   a skos:Concept;
   skos:prefLabel "N2: Psychische gezondheid";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa>
+<http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa>
   a skos:Concept;
   skos:prefLabel "B. Contactgegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/bcb13b37-357f-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/bcb13b37-357f-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "2-00-04 Functie";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/b8da5151-357f-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/b8da5151-357f-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "2-00-05 Telefoon nummer vaste lijn";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/5fe38c57-357f-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/5fe38c57-357f-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "2-00-06 Email adres";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/07037364-357f-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/07037364-357f-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "2-00-07 Contact foto";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/52855b71-357f-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/52855b71-357f-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "2-00-08 (persoonlijke) Professionele sociale media contact referenties";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/914de3cc-a38b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/914de3cc-a38b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "3-06-01 Actuele en historische betrekkingen en beroepen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/db655059-a48b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/db655059-a48b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "3-06-02 Actuele en historische relatie tot de werkgever";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/5bf24065-a48b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/5bf24065-a48b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "3-06-03 Militaire situatie";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/5ffbc583-a48b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/5ffbc583-a48b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "3-06-04 Interesse, informatie en kenmerken van het beroep en relaties tot werkgevers";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/59d5d896-a48b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/59d5d896-a48b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "3-06-05 Openbare mandaten";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/a04054b0-a48b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/a04054b0-a48b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "3-07-01 Lidmaatschap van vereniging zonder raciale, etnische, religieuze of politieke achtergrond";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/6c133dc2-a48b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/6c133dc2-a48b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "3-07-02 Functie binnen een vereniging zonder raciale, etnische, religieuze of politieke achtergrond";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/bd191b16-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/bd191b16-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00 Financiële en fiscale gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/033c1834-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/033c1834-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00-01 Financiële identificatiegegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/638f0d40-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/638f0d40-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00-02 Lasten, inkomsten, bezittingen, investeringen, pensioen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/02a5074c-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/02a5074c-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00-03 Schulden, uitgaven, huurgelden, kredieten (incl. leningen en hypotheken)";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/cd4e085e-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/cd4e085e-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00-04 Beoordelingen financiële toestand en statuten (Incl. Solvabiliteitsstudie en evaluatie)";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/b1970670-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/b1970670-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00-05 Uitkeringen, hulp, giften en subsidies";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/479a0c7c-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/479a0c7c-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00-06 Verzekeringsproducten incl. alle detail en afgeleide informatie";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/2c3d3594-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/2c3d3594-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00-07 Verzekeringsproducten incl. alle detail en afgeleide informatie";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/c9d522a6-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/c9d522a6-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00-08 Financiële transacties incl. alle detail en afgeleide informatie";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/25ce31b8-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/25ce31b8-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00-09 Overeenkomsten, schikkingen en compensaties incl. alle detail en afgeleide informatie";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/59fc28ca-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/59fc28ca-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00-10 Vergunningen incl. alle detail en afgeleide informatie";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/c0b120d6-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/c0b120d6-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-00-11 Grond, eigendommen en andere bezittingen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/6bde16f4-a58b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/6bde16f4-a58b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-01-01 Gebruik van genotsmiddelen (tabak, alcohol, verdovende en stimulerende middelen)";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/dcb91500-a68b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/dcb91500-a68b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-01-02 Bijzonderheden betreffende het gebruik van goederen en diensten aangeboden buiten de Vlaamse";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/11160812-a68b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/11160812-a68b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-01-03 Bijzonderheden betreffende reizen en verplaatsingen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/9553091e-a68b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/9553091e-a68b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-01-04 Sociale contacten, andere vetrekkingen dan die met verwanten";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/cf6d6b2b-a68b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/cf6d6b2b-a68b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-01-05 Lidmaatschap van vereniging, andere dan professionele, filosofische, politieke of vakbondsma";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/b6f97a37-a68b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/b6f97a37-a68b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-01-06 Gebruik van media en communicatiemiddelen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/3ddb8b67-a68b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/3ddb8b67-a68b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-02-01 Algemeen overkoepelende kenmerken en behandelingen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/b05ae279-a68b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/b05ae279-a68b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-02-02 Fysieke kenmerken";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/ec74588e-a68b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/ec74588e-a68b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-02-03 Psychische gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/be533ea6-a68b-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/types/be533ea6-a68b-ef11-ac21-6045bd8d509e>
   a skos:Concept;
   skos:prefLabel "4-02-04 Medische gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/3a250507-357f-ef11-ac20-6045bd98ed2e>
+<http://stad.gent/data/ns/data-processing/types/3a250507-357f-ef11-ac20-6045bd98ed2e>
   a skos:Concept;
   skos:prefLabel "2-00-01 Naam en Voornaam";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/7444301a-357f-ef11-ac20-6045bd98ed2e>
+<http://stad.gent/data/ns/data-processing/types/7444301a-357f-ef11-ac20-6045bd98ed2e>
   a skos:Concept;
   skos:prefLabel "2-00-02 Professionele adresgegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/79437026-357f-ef11-ac20-6045bd98ed2e>
+<http://stad.gent/data/ns/data-processing/types/79437026-357f-ef11-ac20-6045bd98ed2e>
   a skos:Concept;
   skos:prefLabel "2-00-03 Organisatie";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/30e3083c-f37f-ef11-ac20-6045bd98ed2e>
+<http://stad.gent/data/ns/data-processing/types/30e3083c-f37f-ef11-ac20-6045bd98ed2e>
   a skos:Concept;
   skos:prefLabel "3-00-01 Naam en Voornaam";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/641d1f4e-f37f-ef11-ac20-6045bd98ed2e>
+<http://stad.gent/data/ns/data-processing/types/641d1f4e-f37f-ef11-ac20-6045bd98ed2e>
   a skos:Concept;
   skos:prefLabel "3-00-02 Adresgegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/6b9dde71-4c82-ef11-ac20-6045bd98ed2e>
+<http://stad.gent/data/ns/data-processing/types/6b9dde71-4c82-ef11-ac20-6045bd98ed2e>
   a skos:Concept;
   skos:prefLabel "4-01 Leefgewoonten";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/0c982c44-a47c-ef11-ac20-6045bd9a074e>
+<http://stad.gent/data/ns/data-processing/types/0c982c44-a47c-ef11-ac20-6045bd9a074e>
   a skos:Concept;
   skos:prefLabel "2-00 Professionele contactgegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/a2ff2dd9-a77c-ef11-ac20-6045bd9a074e>
+<http://stad.gent/data/ns/data-processing/types/a2ff2dd9-a77c-ef11-ac20-6045bd9a074e>
   a skos:Concept;
   skos:prefLabel "3-00 Persoonlijke contactgegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/757dedeb-a77c-ef11-ac20-6045bd9a074e>
+<http://stad.gent/data/ns/data-processing/types/757dedeb-a77c-ef11-ac20-6045bd9a074e>
   a skos:Concept;
   skos:prefLabel "3-01 Identificatiegegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/de6d62a4-8385-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/de6d62a4-8385-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-02 Persoonlijke kenmerken";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/1847b6bc-8385-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/1847b6bc-8385-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-03 Consumptiegewoonten";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/f43e3ee3-8385-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/f43e3ee3-8385-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04 Woningkenmerken";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/6bed97f7-8385-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/6bed97f7-8385-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-05 Opleiding, ervaring en vorming";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/2dca8d10-8485-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/2dca8d10-8485-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-06 Beroep en betrekking";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/32098e28-8485-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/32098e28-8485-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-07 Vrijetijdsbesteding en interesses";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/ee9afd7c-8485-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/ee9afd7c-8485-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-08 Rijksregisternummer / Identificatienummer van de sociale zekerheid";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/bdc830f2-8485-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/bdc830f2-8485-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-02 Fysieke, medische of psychische gegevens en behandelingen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/0464320b-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/0464320b-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-03 Samenstelling van het gezin";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/e15ef217-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/e15ef217-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-04 Juridische en gerechtelijke gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/e62afe2a-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/e62afe2a-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-05 Raciale of etnische gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/795ef737-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/795ef737-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-06 Gegevens over seksuele geaardheid";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/4c7f594d-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/4c7f594d-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-07 Politieke, filosofische  of religieuze relaties en overtuigingen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/83c38a66-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/83c38a66-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-08 Beeld- en geluidopnamen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/e5b78b75-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/e5b78b75-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-09 Genetische en biometrische gegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/5c69a281-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/5c69a281-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-10 Locatiegegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/4fa5c28d-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/4fa5c28d-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-11 Contractuele detail met werkgever";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/149adf9a-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/149adf9a-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-12 Evaluatie en prestatie informatie";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/e16b79a7-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/e16b79a7-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-13 Gegevens sociale zekerheid";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/a3f3c6b3-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/a3f3c6b3-8585-ef11-ac20-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "4-14 Statuten en vergunningen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/b9f8ef4e-918b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/b9f8ef4e-918b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-01-02 Identificatiegegevens uitgegeven door de werkgever: personeelsnummer";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/1ce66761-918b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/1ce66761-918b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-01-03 Technische account namen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/e7bdcf75-918b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/e7bdcf75-918b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-01-04 Elektronische identificatiegegevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/2de5c0ae-918b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/2de5c0ae-918b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-02-01 Geslacht, geboorte- en overlijdensdatum";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/304b0abd-918b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/304b0abd-918b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-02-02 Geboorteplaats en nationaliteit";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/20a3ffc8-918b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/20a3ffc8-918b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-02-03 Burgerlijke staat";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/aa477de2-918b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/aa477de2-918b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-03-01 Persoonlijke prijsvragen, offertes, bestellingen, facturen, aankooptickets en tickets";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/f4ae2cf7-918b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/f4ae2cf7-918b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-03-02 Logging gebruik toepassingen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/46810d0a-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/46810d0a-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-01 Kadastrale basisgevens";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/a4794422-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/a4794422-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-02 Fiscale kenmerken, waaronder kadastraal inkomen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/f0313c2e-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/f0313c2e-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-03 Energie prestatie certificaten";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/30de4a3b-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/30de4a3b-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-04 Ouderdom woning";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/dc259548-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/dc259548-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-05 Identiteit van de eigenaar";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/ad06505b-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/ad06505b-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-06 Duur van de verblijfsstatus in relatie met de woning";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/97714869-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/97714869-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-07 Personen let toegang tot private gebouwen";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/321dcd85-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/321dcd85-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-08 Gebruiksrelatie van de bewoners";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/f05ff08b-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/f05ff08b-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-09 Woningtype";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/87562d98-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/87562d98-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-10 Staat van onderhoud";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/565c20a4-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/565c20a4-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-11 Fysieke kenmerken";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/3b0d3aaa-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/3b0d3aaa-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-04-12 Openstaande administratie activiteiten";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/c9a13ec8-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/c9a13ec8-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-05-01 Interesse, informatie en kenmerken opleiding en vorming";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/f64138da-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/f64138da-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-05-02 Academische loopbaan";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/81cbdced-928b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/81cbdced-928b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-05-03 Overzicht van de behaalde diploma's en beroepsbekwaamheden en licenties";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/80a50f00-938b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/80a50f00-938b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-05-04 Ervaringsbewijzen (Professioneel en interesse)";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/28548218-938b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/28548218-938b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-05-05 Lidmaatschap beroepsorganisaties en uitgeoefende functies";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/234b641f-938b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/234b641f-938b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-05-06 Publicaties";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
-<http://localhost/data/ns/data-processing/types/4199652b-938b-ef11-ac21-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/types/4199652b-938b-ef11-ac21-7c1e52267460>
   a skos:Concept;
   skos:prefLabel "3-05-07 Interne vorming (tot functie)";
-  skos:inScheme <http://localhost/data/ns/data-processing/types/>;
+  skos:inScheme <http://stad.gent/data/ns/data-processing/types/>;
   gdv:isSensitive "niet gevoelig" .
 
 <https://qa.stad.gent/id/data-processing/processor/901ac964-1baf-e711-80d7-df81b8984a69>
@@ -846,78 +846,78 @@ gdv:56f1a192-316a-e811-80db-005056af615b skos:prefLabel "Cliëntenbegeleiding" .
 <https://qa.stad.gent/id/data-processing/grantee/bb7c054f-6c74-e811-80dd-005056af0e87>
   skos:prefLabel "Zorginstellingen" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/9d783184-af59-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/personal-data-types/9d783184-af59-e811-80da-005056933a48>
   skos:prefLabel "A1: Persoonlijke identificatiegegevens";
   dct:description "Naam, titel, adressen (privé, werk), identiteitskaartnummer, paspoortnummer, rijbewijsnummer, nummerplaat. (RIJKSREGISTERNUMMER is categorie Q)" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/a1fceaf4-775a-e811-80d7-0050569345aa>
+<http://stad.gent/data/ns/data-processing/personal-data-types/a1fceaf4-775a-e811-80d7-0050569345aa>
   skos:prefLabel "B. Contactgegevens";
   dct:description "Telefoonnummer, gsm-nummer, faxnummer, e-mailadres, sociale media-accounts (twitter, facebook, instagram, …)" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/0ac587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/0ac587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "C: Financiële bijzonderheden";
   dct:description "Rekeningnummers, inkomsten, bezittingen, uitkeringen, schulden, uitgaven, subsidies, pensioen, vergunningen, transacties, ..." .
 
-<http://localhost/data/ns/data-processing/personal-data-types/0cc587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/0cc587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "D: Persoonlijke kenmerken";
   dct:description "Leeftijd, geslacht, geboortedatum, geboorteplaats, burgerlijke staat, nationaliteit, militaire status, immigrantenstatuut, ..." .
 
-<http://localhost/data/ns/data-processing/personal-data-types/10c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/10c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "F: Leefgewoonten";
   dct:description "Alcoholverbruik, tabaksverbruik, levensstijl, reizen en verplaatsingen, sociale contacten, openbare mandaten, klachten of incidenten, onderscheidingen, gebruik van media en communicatiemiddelen" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/14c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/14c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "H. Samenstelling van het gezin";
   dct:description "Vorm van samenleven, scheidingen, namen van vroegere partners, personen ten laste, bloedverwanten, gezinsleden, ..." .
 
-<http://localhost/data/ns/data-processing/personal-data-types/16c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/16c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "I. Vrijetijdsbesteding en interessen";
   dct:description "Hobby’s, sport, andere interesses" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/18c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/18c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "J. Lidmaatschappen";
   dct:description "Lidmaatschappen andere dan professionele, politieke of vakbondsmaatschappen" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/22c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/22c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "O. Opleiding en vorming";
   dct:description "Academische curriculum, beroepsbekwaamheid, financieel overzicht van de studies, professionele ervaring, publicaties, lidmaatschap beroepsverenigingen" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/24c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/24c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "P. Beroep en betrekking";
   dct:description "Jobinformatie, loopbaan, aanwezigheid, loon, extra-legale voordelen, organisatie van het werk, evaluatie, loon, gebruik van ICT-middelen" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/26c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/26c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "Q. Rijksregisternummer";
   dct:description "Rijksregisternummer of bisnummer" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/1ac587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/1ac587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "K. Gerechtelijke gegevens";
   dct:description "Veroordelingen, straffen, verdenkingen, inbeschuldigingstellingen, gerechtelijke maatregelen, administratieve sancties (GAS)" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/c0e97a65-c259-e811-80d7-0050569345aa>
+<http://stad.gent/data/ns/data-processing/personal-data-types/c0e97a65-c259-e811-80d7-0050569345aa>
   skos:prefLabel "N1: Lichamelijke gezondheid";
   dct:description "Medisch dossier, diagnose-informatie, behandeling, analyseresultaat, ..." .
 
-<http://localhost/data/ns/data-processing/personal-data-types/8258df7c-c259-e811-80d7-0050569345aa>
+<http://stad.gent/data/ns/data-processing/personal-data-types/8258df7c-c259-e811-80d7-0050569345aa>
   skos:prefLabel "N2: Psychische gezondheid";
   dct:description """Medisch dossier, medisch verslag, diagnose-informatie, behandelingen, analyseresultaten.
 """ .
 
-<http://localhost/data/ns/data-processing/personal-data-types/d9f8ce55-c759-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/personal-data-types/d9f8ce55-c759-e811-80da-005056933a48>
   skos:prefLabel "N3: Risicosituaties en risicogedragingen" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/20523184-c759-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/personal-data-types/20523184-c759-e811-80da-005056933a48>
   skos:prefLabel "N4: Genetische gegevens";
   dct:description "Genetische gegevens in het kader van bevolkingsonderzoek" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/24b7df9c-c759-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/personal-data-types/24b7df9c-c759-e811-80da-005056933a48>
   skos:prefLabel "N5: Gegevens met betrekking tot de zorg";
   dct:description "Gegevens met betrekking tot de gebruikte middelen en procedures voor de medische en paramedische patiëntenaanpak." .
 
-<http://localhost/data/ns/data-processing/personal-data-types/28c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/28c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "R. Raciale of etnische gegevens" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/2ac587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/2ac587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "S. Gegevens over het seksuele leven" .
 
 <https://qa.stad.gent/id/data-processing/processor/3a2527b7-b09b-e811-80dd-adca587e5ac2>
@@ -943,11 +943,11 @@ gdv:5af1a192-316a-e811-80db-005056af615b skos:prefLabel "Maatschappelijke hulpve
 <https://qa.stad.gent/id/data-processing/grantee/a6e6c904-5f76-e911-80e8-005056af0e87>
   skos:prefLabel "Vlaamse Milieu-inspectie" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/f712a7e0-af59-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/personal-data-types/f712a7e0-af59-e811-80da-005056933a48>
   skos:prefLabel "A3: Elektronische lokalisatiegegevens";
   dct:description "Locatiebepaling op basis van GSM-signalen, GPS-coördinaten, e.d." .
 
-<http://localhost/data/ns/data-processing/personal-data-types/0c82f0bb-af59-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/personal-data-types/0c82f0bb-af59-e811-80da-005056933a48>
   skos:prefLabel "A2: Elektronische identificatiegegevens";
   dct:description "Accounts (username/passwords), IP-adressen, cookies, MAC-adressen, verbindingsmomenten, ..." .
 
@@ -977,11 +977,11 @@ Zie selectielijst voor gemeenten 3.02.02.06.""" .
 <https://qa.stad.gent/id/data-processing/grantee/e944591f-109e-e711-80d7-005056af615b>
   skos:prefLabel "OCMW Gent" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/1ec587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/1ec587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "M. Woningkenmerken";
   dct:description "Aard van de woning (eigendom of gehuurd), duur van het verblijf op dit adres, huur, lasten, classificatie van de woning, bijzonderheden betreffende de valorisatie, namen van de personen die in het bezit zijn van sleutels." .
 
-<http://localhost/data/ns/data-processing/personal-data-types/32c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/32c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "W. Beeldopnamen";
   dct:description "Cameraopname, fotografische opname, video-opname, digitale foto’s" .
 
@@ -995,7 +995,7 @@ gdv:20f1a192-316a-e811-80db-005056af615b skos:prefLabel "Bibliotheekbeheer" .
 <https://qa.stad.gent/id/data-processing/grantee/ff0f5e43-0770-e911-80e3-005056935251>
   skos:prefLabel "Vormingplus Gent-Eeklo" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/0c982c44-a47c-ef11-ac20-6045bd9a074e>
+<http://stad.gent/data/ns/data-processing/personal-data-types/0c982c44-a47c-ef11-ac20-6045bd9a074e>
   skos:prefLabel "2-00 Professionele contactgegevens";
   dct:description """Deze categorie van persoonsgegevens omvat enkel informatie die toelaat contact te nemen met een individu in professionele context. 
 • Naam en Voornaam
@@ -1055,7 +1055,7 @@ gdv:24f1a192-316a-e811-80db-005056af615b skos:prefLabel "Handhaving gemeentelijk
 <https://qa.stad.gent/id/data-processing/grantee/cc60be4e-3a92-e711-80d7-005056935251>
   skos:prefLabel "Dienst Preventie voor Veiligheid" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/1cc587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/1cc587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "L. Consumptiegewoonten";
   dct:description "Goederen en diensten die aan de geregistreerde persoon worden geleverd, ontleend of gehuurd" .
 
@@ -1192,13 +1192,13 @@ gdv:6a366bde-7c54-e911-80e7-005056af0e87 skos:prefLabel "Dienstverlenende taken 
 <https://qa.stad.gent/id/data-processing/grantee/a037b024-a15a-e911-80e3-005056935251>
   skos:prefLabel "Afdeling Woningkwaliteit" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/08c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/08c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "A: Identificatiegegevens";
   dct:description "Niet gebruiken. Gelieve de passende subcategorie te kiezen." .
 
 <https://qa.stad.gent/id/period-of-time/C3ABE568BDED93187DD91617EE989ED0> dct:title "Maximum 5 jaar volgens het Rijksarchief." .
 
-<http://localhost/data/ns/data-processing/personal-data-types/20c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/20c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "N. Gegevens betreffende de gezondheid";
   dct:description "Niet gebruiken. Gelieve de passende subcategorie te kiezen." .
 
@@ -1219,7 +1219,7 @@ Zie selectielijst voor gemeenten 309.01.08.""" .
 
 gdv:5cf1a192-316a-e811-80db-005056af615b skos:prefLabel "Activering" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/e15ef217-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/personal-data-types/e15ef217-8585-ef11-ac20-7c1e52267460>
   skos:prefLabel "4-04 Juridische en gerechtelijke gegevens";
   dct:description """• Klachten, incidenten en ongevallen 
 • Detailinformatie met betrekking tot het individu in context van klachten, incidenten, ongevallen 
@@ -1235,7 +1235,7 @@ gdv:5cf1a192-316a-e811-80db-005056af615b skos:prefLabel "Activering" .
 • Administratieve sancties van louter disciplinaire aard dewelke wegen niet-nakoming van wettelijke en verordening bepalingen kunnen worden opgelegd (GAS boetes) 
 • Genetische en biometrische gegevens die worden verwerkt in het kader van de wet van 22 maart 1999 betreffende de identificatieprocedure in strafzaken""" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/0464320b-8585-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/personal-data-types/0464320b-8585-ef11-ac20-7c1e52267460>
   skos:prefLabel "4-03 Samenstelling van het gezin";
   dct:description """• Samenlevingsvormen 
 • Data in relatie tot de actuele en historische samenlevingsvorm (partner, huwelijksdatum, datum samenlevingscontract en verbreking relatievorm) 
@@ -1243,7 +1243,7 @@ gdv:5cf1a192-316a-e811-80db-005056af615b skos:prefLabel "Activering" .
 • Aantal kinderen 
 • Bijzonderheden in relatie tot bloedverwanten in zijlijn en adoptie en pleegouders""" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/bdc830f2-8485-ef11-ac20-7c1e52267460>
+<http://stad.gent/data/ns/data-processing/personal-data-types/bdc830f2-8485-ef11-ac20-7c1e52267460>
   skos:prefLabel "4-02 Fysieke, medische of psychische gegevens en behandelingen";
   dct:description """Algemeen overkoepelende kenmerken en behandelingen: 
 • Risicosituaties 
@@ -1267,7 +1267,7 @@ Medische gegevens:
 • Onderzoeken, diagnoses en rapporten 
 • Behandelingen en medicatie""" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/6b9dde71-4c82-ef11-ac20-6045bd98ed2e>
+<http://stad.gent/data/ns/data-processing/personal-data-types/6b9dde71-4c82-ef11-ac20-6045bd98ed2e>
   skos:prefLabel "4-01 Leefgewoonten";
   dct:description """• Gebruik van genotsmiddelen (tabak, alcohol, verdovende en stimulerende middelen) 
 • Bijzonderheden betreffende het gebruik van goederen en diensten aangeboden buiten de Vlaamse overheid 
@@ -1328,7 +1328,7 @@ gdv:db88f050-9980-ea11-80f1-005056af0e87 skos:prefLabel "Subsidiebeheer" .
 
 Zie selectielijst voor gemeenten 3.02.02.08.""" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/fc4a6e23-b059-e811-80da-005056933a48>
+<http://stad.gent/data/ns/data-processing/personal-data-types/fc4a6e23-b059-e811-80da-005056933a48>
   skos:prefLabel "A4: Biometrische identificatiegegevens";
   dct:description "DNA, vingerafdrukken, netvlies, gezicht, vorm van vingers, vorm van de hand, ..." .
 
@@ -1345,7 +1345,7 @@ We bewaren persoonsgegevens soms ook permanent in ons archief volgens de archief
 <https://qa.stad.gent/id/data-processing/grantee/b2946e32-2840-e911-80e2-005056935251>
   skos:prefLabel "Fluvius" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/12c587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/12c587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "G: Psychische gegevens";
   dct:description "Meningen betreffende de persoonlijkheid of het karakter" .
 
@@ -1384,7 +1384,7 @@ Zie selectielijst voor gemeenten 3.02.02.01.
 
 Zie selectielijst voor gemeenten 03.02.04.06.""" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/757dedeb-a77c-ef11-ac20-6045bd9a074e>
+<http://stad.gent/data/ns/data-processing/personal-data-types/757dedeb-a77c-ef11-ac20-6045bd9a074e>
   skos:prefLabel "3-01 Identificatiegegevens";
   dct:description """Deze categorie van persoonsgegevens omvat enkel informatie die toelaat om een individu uniek te identificeren.
 • Identificatiegegevens uitgegeven door de overheidsdiensten: identiteitskaartnummer, paspoortnummer, VoID, rijbewijsnummer, pensioennummer, nummerplaat persoonlijk(e) voertuig(en)
@@ -1505,14 +1505,14 @@ Zie selectielijst voor gemeenten 3.02.04.07.""" .
 
 <https://qa.stad.gent/id/period-of-time/DC31FAC864210985FA303D5E0B540A57> dct:title "6 jaar volgens de selectielijst voor lokale overheden 312.09.04" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/641d1f4e-f37f-ef11-ac20-6045bd98ed2e>
+<http://stad.gent/data/ns/data-processing/personal-data-types/641d1f4e-f37f-ef11-ac20-6045bd98ed2e>
   skos:prefLabel "3-00-02 Adresgegevens";
   dct:description "Gebouw, straat, nummer, bus, postcode en gemeente" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/30e3083c-f37f-ef11-ac20-6045bd98ed2e>
+<http://stad.gent/data/ns/data-processing/personal-data-types/30e3083c-f37f-ef11-ac20-6045bd98ed2e>
   skos:prefLabel "3-00-01 Naam en Voornaam" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/a2ff2dd9-a77c-ef11-ac20-6045bd9a074e>
+<http://stad.gent/data/ns/data-processing/personal-data-types/a2ff2dd9-a77c-ef11-ac20-6045bd9a074e>
   skos:prefLabel "3-00 Persoonlijke contactgegevens";
   dct:description """Deze categorie van persoonsgegevens omvat enkel informatie die niet onder professionele contactgegevens valt, die toelaat contact te nemen met een individu.
 • Naam en Voornaam
@@ -1646,7 +1646,7 @@ gdv:2cf1a192-316a-e811-80db-005056af615b skos:prefLabel "Vrijwilligersadministra
 <https://qa.stad.gent/id/data-processing/grantee/26cca333-1dad-e811-80db-d56c80804e17>
   skos:prefLabel "Departement Zorg en Gezondheid" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/0ec587d2-6648-e811-80dd-005056932858>
+<http://stad.gent/data/ns/data-processing/personal-data-types/0ec587d2-6648-e811-80dd-005056932858>
   skos:prefLabel "E: Fysieke gegevens";
   dct:description "Grootte, gewicht, haarkleur, kleur van de ogen, onderscheidende kenmerken" .
 
@@ -1677,7 +1677,7 @@ Zie selectielijst voor gemeenten 311.03.04.""" .
 <https://qa.stad.gent/id/data-processing/grantee/16529c8a-cb90-e911-80e8-005056af0e87>
   skos:prefLabel "Dienst Economie" .
 
-<http://localhost/data/ns/data-processing/personal-data-types/bcb13b37-357f-ef11-ac21-6045bd8d509e>
+<http://stad.gent/data/ns/data-processing/personal-data-types/bcb13b37-357f-ef11-ac21-6045bd8d509e>
   skos:prefLabel "2-00-04 Functie";
   dct:description "De functie binnen de organisatie" .
 
@@ -3564,1021 +3564,1021 @@ Besluit van de Vlaamse Regering van 3 juli 2009 tot vaststelling van de operatio
   rdfs:isDefinedBy <http://localhost/data/data-processing/activities/3fc446bf-f861-ea11-80f0-005056af0e87> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/6b4418b0-4f1a-4ac2-8446-5f363d003e83>
-  dct:type <http://localhost/data/ns/data-processing/types/12c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/12c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/ba0b96e2-f455-40b5-bc00-3e3fc297f82e>
-  dct:type <http://localhost/data/ns/data-processing/types/12c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/12c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/61abb325-2bb9-4d6a-bd51-43d337ba2955>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/392494a1-f6e8-47c9-9522-4e7fc9773d8a>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e69cbf84-10e6-4a6e-af42-8ab7b035ea4b>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/59e3e457-783f-4628-9005-0e759cf84d3c>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/2426452e-9502-4a10-b088-c71fe459b0d2>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/006b8726-0741-459c-bb0a-97c24cf580e8>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/75ca48f9-60ea-48e7-a870-9aa1380e4c21>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c5e2ac8a-b1f0-464e-9753-bbd7fabb0983>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/dd66a5f3-b521-4b3a-8421-b64bbca8c039>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c81bd0d3-69b6-4f26-892f-de397006cca0>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/cc25e9db-cda3-402b-86db-6c06436b1ea3>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/313857d5-c1ad-47c6-abeb-48dd4d81e01e>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/3d96e677-9e7f-41dd-8dac-263c9be164d2>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/efb0ccef-36bb-473c-86c0-86d298077cab>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/810685fd-e689-474b-8762-fd3cf22f7a55>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/237626a8-0463-4b21-aaff-4ea158a0747c>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5a11160d-a887-405e-86bb-17e7cceddd85>
-  dct:type <http://localhost/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/269aaa4b-6eb3-4bef-a9f4-70dd38552185>
-  dct:type <http://localhost/data/ns/data-processing/types/20c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/20c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/4539f6aa-52df-42fe-aa7e-e47bcb4c7919>
-  dct:type <http://localhost/data/ns/data-processing/types/20c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/20c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b25d8297-df24-4562-bb31-5f1b1399f6bc>
-  dct:type <http://localhost/data/ns/data-processing/types/20c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/20c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/37b97902-7b6d-4c47-ae4e-3166a99b2328>
-  dct:type <http://localhost/data/ns/data-processing/types/28c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/28c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/493d0a08-d60f-46d7-a4ce-3b52dca461e4>
-  dct:type <http://localhost/data/ns/data-processing/types/28c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/28c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/fa936db9-f55e-4719-82f5-c02e994171e2>
-  dct:type <http://localhost/data/ns/data-processing/types/28c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/28c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/f3ad18a7-f1e9-49a6-96dd-fdfbe4448480>
-  dct:type <http://localhost/data/ns/data-processing/types/28c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/28c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/0ec22a4e-f6dd-40d3-a2dc-67f731d03496>
-  dct:type <http://localhost/data/ns/data-processing/types/2ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/2ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/aeee7ff3-26b1-4034-8db6-302be2c6d06d>
-  dct:type <http://localhost/data/ns/data-processing/types/2ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/2ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/4ad0a44d-828b-4aed-bf3b-6d0623bc542b>
-  dct:type <http://localhost/data/ns/data-processing/types/fc4a6e23-b059-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/fc4a6e23-b059-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/3fb04d0c-11d7-4998-82a3-5394ad069123>
-  dct:type <http://localhost/data/ns/data-processing/types/fc4a6e23-b059-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/fc4a6e23-b059-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/8f689305-be4b-4f0d-b1f3-3e9f9aa02163>
-  dct:type <http://localhost/data/ns/data-processing/types/fc4a6e23-b059-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/fc4a6e23-b059-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/bc935036-dd68-4059-b366-d6d66698586a>
-  dct:type <http://localhost/data/ns/data-processing/types/d9f8ce55-c759-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/d9f8ce55-c759-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/867fed57-866f-4d7e-9a67-3ff02a0cf1fb>
-  dct:type <http://localhost/data/ns/data-processing/types/d9f8ce55-c759-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/d9f8ce55-c759-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/097d7beb-282e-49f3-9acf-46eaa4fa3ed4>
-  dct:type <http://localhost/data/ns/data-processing/types/d9f8ce55-c759-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/d9f8ce55-c759-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b46915c9-f9dc-47c1-a4b4-c730fb325b5f>
-  dct:type <http://localhost/data/ns/data-processing/types/20523184-c759-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/20523184-c759-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/395fecb9-6888-41f8-8235-a2c714370b8e>
-  dct:type <http://localhost/data/ns/data-processing/types/24b7df9c-c759-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24b7df9c-c759-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/16b10a56-bf56-4617-a7a1-725b0393c7f5>
-  dct:type <http://localhost/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/9a723e7d-44d9-4bc6-8575-924a46ae70a1>
-  dct:type <http://localhost/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/11b5f03c-995c-4c9d-b747-a98c79a780c1>
-  dct:type <http://localhost/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b6f4cf2c-411c-4671-8fff-926b002b9934>
-  dct:type <http://localhost/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c055c77c-cbf5-47e0-bf8f-5e07010b8ede>
-  dct:type <http://localhost/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/fef49340-42b8-472f-b2ff-23c42f2a4800>
-  dct:type <http://localhost/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/0ffa78c6-7fbb-4e34-8843-3c4525fdcb6b>
-  dct:type <http://localhost/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b4723e97-46a8-4bcb-a2b9-74a8802554c7>
-  dct:type <http://localhost/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5d4d1844-084c-446c-ab24-9b153bd0a116>
-  dct:type <http://localhost/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/eb778e01-ac45-443a-8039-cce3ff575db1>
-  dct:type <http://localhost/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/c0e97a65-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/7bfc510d-9e0d-46bc-a6a6-b4fe3e18b5aa>
-  dct:type <http://localhost/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/0a10c937-79c0-4153-a1b9-3fcdfd2dab4b>
-  dct:type <http://localhost/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/ce835da7-e144-43d9-bf9f-5ab4e6571724>
-  dct:type <http://localhost/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/cd757959-dfc6-4288-855a-f7108cf8c13d>
-  dct:type <http://localhost/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/1542d8d3-4608-468a-9d8c-4086cd240c45>
-  dct:type <http://localhost/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/8258df7c-c259-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/daf0d492-d6bf-4b22-9a51-d69fa217ca07>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e56bb023-190a-4d99-82f0-d07f9f546a3f>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/134a6e62-a758-46cf-9178-d76fd3496423>
-  dct:type <http://localhost/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b09fd938-5bd8-471a-8c4e-6ef48cec9857>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/d14d2fb0-0167-4255-ae9d-1b7421372796>
-  dct:type <http://localhost/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c24469d7-d6fe-4e0a-8483-ceca46de07d0>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/bd496ad4-a6e7-4d0c-ba50-4dfaa71a9f21>
-  dct:type <http://localhost/data/ns/data-processing/types/16c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/16c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/8b28f295-e6ef-4d51-b850-87a40ae957e2>
-  dct:type <http://localhost/data/ns/data-processing/types/18c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/18c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c2ae8ff7-4c88-470d-bf14-897af9da4303>
-  dct:type <http://localhost/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/709b5de1-7cec-4514-b911-e80c2b67a07e>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/d31d0bbd-1f16-4502-9f0c-b8a961e83a12>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/972221fe-1c09-4835-a71a-7fc75c5e9056>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/34b96e3a-7e10-4b23-a35d-d7ec1c1b968b>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/76541582-51b1-4899-9889-4aec3a59b0a0>
-  dct:type <http://localhost/data/ns/data-processing/types/0c82f0bb-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0c82f0bb-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/f67d70eb-4c1a-4d18-8640-f95b15f6aa4d>
-  dct:type <http://localhost/data/ns/data-processing/types/f712a7e0-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/f712a7e0-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/084f043b-23d7-4e43-9c60-70c98167f1d3>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/beeb4abb-65d6-4f7e-ace8-d3b49e6a7960>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/6e465da0-f747-47d4-acef-29f041721d73>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/4939ab69-a444-4cbc-a595-0e26695173b5>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/80b657a9-9f72-473b-a850-00f953e4f7a9>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/879e50b8-8031-42ba-8798-011804d342d0>
-  dct:type <http://localhost/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e7a0eb55-2ad3-4d8b-89ec-bdb22d633fbc>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/d9adbd95-bd0d-4001-9c5d-95e637723b7f>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c3414e0d-8c20-4447-a001-9bcdd4d248b9>
-  dct:type <http://localhost/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/3c7f4b36-c3a8-412e-9c57-1b2831a75715>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/8954b0ee-c51c-4cf1-a354-512ff9a6f216>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/d08cd12c-18cc-432e-bcf9-3cb47cde34a9>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/6392ca4d-45f9-48df-a2b6-a840789cee1d>
-  dct:type <http://localhost/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/6ac3ca6a-77c4-47db-857d-79853b6eb04c>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/6f0aba99-f3aa-4ad3-8556-acc5e939a499>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c7e0591d-c99c-4df8-a20f-a6e4b07e6db7>
-  dct:type <http://localhost/data/ns/data-processing/types/0c982c44-a47c-ef11-ac20-6045bd9a074e> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0c982c44-a47c-ef11-ac20-6045bd9a074e> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/4a93e3b7-87bc-4c06-bdf0-74085e323842>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/ba06c578-3690-4571-944b-dce206fb1ce8>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/9f6635ba-a9fe-4287-8110-1e0748385c11>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/1b4dfa2a-1e15-4040-a01f-ee86ecdd0bc1>
-  dct:type <http://localhost/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/ade8d047-5361-414a-b0ea-3bec04e257ec>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/edbeae84-26a2-4fec-ac09-e7a7b5b4f81b>
-  dct:type <http://localhost/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/1a8f7cfd-8e88-413c-a358-e638ff739a19>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e6aecbfc-b37b-43fd-b459-7d9133776824>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/f087eea3-d0bd-4162-bff7-a3f300f22230>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/9df94129-ba60-4ced-bb04-3284f2bebde3>
-  dct:type <http://localhost/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/eb9107ac-e212-4ee5-a144-b3d6d28b8784>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/96dc26fb-69f2-49f4-9354-62959aa116a8>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/cad6330e-ec19-4317-88ba-e9618ebd5b5f>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/202a6177-5508-4b07-a91f-0e2687ef4aa2>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/3748fa17-1f5c-4d86-b5c1-9326e0520c29>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/34488d0e-8695-46a1-8520-1279da27009e>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c2fc22e0-2704-44dc-b930-f1ca19d694fc>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/efbd2ca4-d35b-412d-a155-0218af65aa5d>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c57c52d8-13f6-44e8-abcc-c0a1fad152e1>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/461e4ae8-1e9e-4e73-8266-44d14b02f267>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b49803d1-fe63-470a-b8e6-f2fff23a87fc>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/4fb8b06d-c7ec-47fd-be1e-2f6715681e69>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/fe60e7b1-c10b-44d9-9e1f-0cc229c172df>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b99c8745-a491-41f6-bb55-023e2efa7c68>
-  dct:type <http://localhost/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/f75c9498-25c5-41b8-8556-bd0bdbf73def>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e8f72808-412e-4d7c-8dbd-eafda2a1b35d>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/08dbde24-2c6e-4bb8-8815-f9a475229a38>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/7175ae94-784c-4d1c-b992-0f4baf0b0306>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/ca97260e-84da-4339-a274-9416caeef2cf>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/9cde2106-d622-44aa-ac46-05e8b3409ab2>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/00aeaa61-57f3-43be-bb15-c5c99e49a79e>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a6ba4c20-7ec0-413e-97fb-44405cffe58a>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/278b3ea8-bbb9-4728-990a-92d89bb83c4d>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/fdb72d27-00f9-4f21-8aca-b095d27dda3c>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b9e3baae-681f-48f3-8789-e12d8b27cfc3>
-  dct:type <http://localhost/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/84f12450-e6f5-400a-b007-f9ad70af782b>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/f6d64650-32e3-47f1-bbe7-babe0dddc7c5>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b709bb85-0e35-49ef-86c4-319d651b9fb4>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5b66934e-bd87-4346-b7ce-fe274468fe7f>
-  dct:type <http://localhost/data/ns/data-processing/types/08c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/08c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/856970f6-c8a0-40f9-ac39-94160a270564>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c1cd009f-b770-4173-aee2-87010246c0cc>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c1559e10-aafa-4cc9-bfcf-04ab2768b2b0>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/955b75b4-18a9-49b2-8857-f159303b1c2c>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/9e42a007-4162-4bc3-b195-585a50620e05>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/6a21e0b9-1367-4fab-bdb2-d9982c639359>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/7ba81d04-e513-447e-bc1e-1f2e87721e51>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/875ebcaf-35a4-4d2e-bab3-b6f4239ead34>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b5c7a053-24c6-481a-8ab5-2ceaa7ceec17>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/6cf01cbf-a0f4-4d76-9fc7-4d03095fe864>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/d478965a-393a-470e-9b99-f707aa8285aa>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/141ebfa9-9bf5-4aa0-a708-169753d30556>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/4e333fa9-b676-4b32-996e-823ecc128e89>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/cafa0c0c-033f-4cee-9c76-9b9b8da903c5>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/ce74f4ae-6af0-4dab-bba1-a03fdbe6d3c8>
-  dct:type <http://localhost/data/ns/data-processing/types/e15ef217-8585-ef11-ac20-7c1e52267460> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/e15ef217-8585-ef11-ac20-7c1e52267460> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/00581974-7c35-4c8f-839a-68e769cc97a9>
-  dct:type <http://localhost/data/ns/data-processing/types/0464320b-8585-ef11-ac20-7c1e52267460> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0464320b-8585-ef11-ac20-7c1e52267460> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/02c89f0b-1f98-4f91-8738-ac84c243796a>
-  dct:type <http://localhost/data/ns/data-processing/types/bdc830f2-8485-ef11-ac20-7c1e52267460> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/bdc830f2-8485-ef11-ac20-7c1e52267460> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e1fc7cc4-bf16-4a8e-9a07-a1ead754f913>
-  dct:type <http://localhost/data/ns/data-processing/types/6b9dde71-4c82-ef11-ac20-6045bd98ed2e> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/6b9dde71-4c82-ef11-ac20-6045bd98ed2e> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/3904ff7a-cff8-451b-a497-ea83264182f5>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/f9402440-ad90-4e0d-a83f-66a262835d48>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5bccfc7e-7aa4-4d33-9854-745b34ea23b8>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/7872f84f-d0ca-4756-88a2-b94328c4c3ff>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/9105ee57-5d01-455f-96cb-fdccd64bec72>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/0d8ff96d-3e4e-4a8b-999a-18ccd188713f>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e9cf813b-c276-458f-b399-4a658db23516>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/844ad8c2-061b-4278-86f9-28ead24b91a3>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/0a0ce1ad-9d8d-4e88-985d-4d8a43eeb7ae>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a6740b9e-439a-4f33-a844-bb4377f724b4>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/dad467b9-abe0-41d5-bfbc-9297274ce924>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/7efb143a-eadb-422e-8f5f-4c8049825315>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/64aab57b-583c-4415-a149-072ee31f9f4a>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/30cb9dbe-770b-4df6-a605-19d4c6822bca>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/d43a2b9f-c4d3-4720-b73e-ecd8354cb429>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/da683a59-c4a5-4ee3-b47a-bfb03293747e>
-  dct:type <http://localhost/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/f8ff561b-0f3d-4200-aadc-ca59c17ed8e9>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/2b11edfc-a043-4cfa-bb0d-a9e0486e6f9c>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/8eac767c-0e78-4a21-bbc6-5ae7dbfa0e9d>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/08578f42-5189-4661-8b64-c8bd2dd2611d>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/841a661b-3a6e-4364-92de-ec484f4f04f4>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a37f82d1-3e7d-4376-afd8-d63241d4db4a>
-  dct:type <http://localhost/data/ns/data-processing/types/f712a7e0-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/f712a7e0-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b7d76880-8b12-40e5-981f-59525a465740>
-  dct:type <http://localhost/data/ns/data-processing/types/0c82f0bb-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0c82f0bb-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/17b10d46-bcbe-4be9-9817-04e985ad38d5>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/90dd974c-ebf1-4f26-8037-244d294a5ee7>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/be24a281-0f5e-4f1c-b233-f6036f502569>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/aba3dc88-1e17-4948-aced-32c357a0098f>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/d7d2e6b8-d3c2-442f-b2a5-cb5d0d537a61>
-  dct:type <http://localhost/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/38bfbe2f-ccd2-491f-9baf-66c92af93aed>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a93f33e5-cef2-4541-927b-6771d988ec75>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/8337cced-b41a-434a-861d-8855b894952d>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/12d680ad-c70f-4ab8-aa36-2d2a8204bfca>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e3124e23-158d-4c2d-b8b0-9663f20e8158>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/ae271c0b-fc62-40ae-98fa-fdd0b780b106>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a0318b74-6341-4f0d-9322-8eaf48991c66>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/be76fd68-ca69-427d-b6b0-5c8d9a48797d>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/acadc5ab-b9ea-4174-95ac-9ee0caf0da33>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/50b05477-c120-4db8-91cf-a1d4e0e6293f>
-  dct:type <http://localhost/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/0b1ad9fc-87e5-48eb-894f-0d9928814c0b>
-  dct:type <http://localhost/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/8d1a5ac1-4c30-4a4d-9dd0-d4e477309461>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/204d2e66-9410-4094-a658-743fbddcf030>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/1a92ed11-61af-4147-804f-9e332e645dc6>
-  dct:type <http://localhost/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a7ecb218-c042-4873-b6d3-f7379f8c3076>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/fcbb4ef7-68f0-4ead-8888-33c5736b86a6>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/31fbe925-caac-4f69-9d77-01fcecb53a82>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/98c01231-d312-4800-baf2-5bc5cccb4bbb>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/2753eeeb-7c3b-47b4-a943-ece48aaf595c>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/14bad4cb-bc98-4a87-8f50-6893f7af23e5>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/0e13ecbc-d3f2-4780-8afe-9478b7a0383a>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/153e7ad0-2588-4521-bf7c-f9f545938057>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/22906e45-5c88-4d90-a3ea-3b4964eec2a8>
-  dct:type <http://localhost/data/ns/data-processing/types/0c982c44-a47c-ef11-ac20-6045bd9a074e> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0c982c44-a47c-ef11-ac20-6045bd9a074e> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b6da80e3-1f2c-464b-acb7-90242c65606f>
-  dct:type <http://localhost/data/ns/data-processing/types/757dedeb-a77c-ef11-ac20-6045bd9a074e> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/757dedeb-a77c-ef11-ac20-6045bd9a074e> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/fb3fb64b-2ddf-40dd-818d-ebc7fa4f53c0>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e60b33c4-5eeb-466c-93a5-88e4038c6501>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e6d94ce8-252c-4db9-8ee5-e4c88f465c37>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/77b5fe21-3605-4c96-8909-0022b918fcb3>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/3b774fa0-c351-45bb-b8bd-f09ade423c22>
-  dct:type <http://localhost/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/8b5e5040-7916-4303-af50-41a7f2a2f279>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/291fdfc7-14de-41de-b4d5-55defd299950>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a1f55378-d1a2-466d-a9f1-989d8442270a>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/fb61a571-de61-4de1-baf0-f77c22c82fc8>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/075e872b-c10f-474f-9c61-ccbffb4c42cd>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/44b5ee9c-af5c-4914-81fd-5745d965856c>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/d714543d-9ecf-4a25-bf9d-24c4b46df7d4>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/cc75a42d-82a9-440b-b733-5d64015f9140>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/d5cd678e-5e8f-4326-8fda-a645780ac284>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a147d724-c711-4dd2-bfde-a9398f8af583>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e86dd4b1-f674-4af4-b191-4445aadf24d5>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/61a656b8-0353-4040-b518-cabd8a76b6d2>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/aedd729f-7a86-452a-b566-e844f92c2ba4>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/62e516de-d80c-4ff7-937a-df46e2c6d644>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/94650a2f-496e-4ff0-994e-c687f6f356e9>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/1215a07b-dab8-4ff2-8e9a-7dc95fba9afd>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c2f1f9ac-cc32-4826-8eeb-dd6a19a141f5>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/45860325-3c31-4082-a435-c592e5dc5e03>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c6ef57a2-1a9b-4727-afba-afea43bd2605>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/babf66a2-edc6-4cfb-bb44-865cf5361ef3>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/61d7beab-9a35-452a-9b9a-8ca7d531d5f0>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5fecf7cc-0d43-447b-a49c-b9c515b80053>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/3f15b184-577c-4d74-81e3-2abbb443607d>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/0d78bd47-e725-40b8-8043-38f4f0b3e9ff>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/7bdbc668-8cc9-4d11-8ce8-104598f68300>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/8abd6b07-be51-4e67-a947-d4c20ac9eedb>
-  dct:type <http://localhost/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/226b7940-5ba4-48e7-a194-6ff97cbe7161>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/3aed2a4a-c079-4507-9882-7c6eb2993bf4>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/25c6097c-4def-4cbf-86d9-17f95c81a551>
-  dct:type <http://localhost/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/d23513ae-8919-461e-a64d-6d2ce422ea91>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/30a6c782-f977-4f9a-9140-c08d4f7a1a1b>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/6b9c5b75-3cf6-48ac-8308-4ce7601c4284>
-  dct:type <http://localhost/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a934eae8-21d9-4302-b13e-efd1718ad91c>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/9733cd7b-d234-4d66-a093-69bb96eb9b6e>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/f259db7b-c5f3-4275-af87-a0ba1947eb33>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b955061e-d02f-467f-851a-c5626bb9b636>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/f3a7a7c6-8930-4bca-8d2d-6dc7d3cec8d1>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/1f6a4e0d-b16c-4cee-8588-5b2aa053a124>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/882966cb-1954-4f59-bb2a-99da6023d548>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/51614d4e-e879-4e9b-b274-265a0f80a36f>
-  dct:type <http://localhost/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/2879ca4a-d792-4b1e-9f0d-010e46399f87>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/9648ae55-d62a-4893-a670-a82088f5c2c8>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/f3227f27-f69d-4c9c-ae79-9bbb3adc5ecc>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/912da829-6112-4161-83ed-4a1a119c1188>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5df42472-14b6-45d6-8454-273744576026>
-  dct:type <http://localhost/data/ns/data-processing/types/757dedeb-a77c-ef11-ac20-6045bd9a074e> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/757dedeb-a77c-ef11-ac20-6045bd9a074e> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/2f57f6b3-1c1c-4769-af01-5e11e5339b56>
-  dct:type <http://localhost/data/ns/data-processing/types/641d1f4e-f37f-ef11-ac20-6045bd98ed2e> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/641d1f4e-f37f-ef11-ac20-6045bd98ed2e> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/6b02bc72-e4fc-4660-a87a-8b60e4a28325>
-  dct:type <http://localhost/data/ns/data-processing/types/30e3083c-f37f-ef11-ac20-6045bd98ed2e> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/30e3083c-f37f-ef11-ac20-6045bd98ed2e> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/1daf1f4f-35d9-4b6e-9aa2-bbec9d5122ad>
-  dct:type <http://localhost/data/ns/data-processing/types/a2ff2dd9-a77c-ef11-ac20-6045bd9a074e> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a2ff2dd9-a77c-ef11-ac20-6045bd9a074e> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b06ac967-58c5-4b2e-93c9-22607cdd5dda>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/2787b6dc-5f2c-4daf-8b36-4bc9bffe10ed>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/966d8728-22b4-4cfc-bf0c-3792216c9239>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/3b7de1af-f97d-484c-a4b6-db275016f499>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/59a8740f-33a0-48da-95d1-7a10cf63fed5>
-  dct:type <http://localhost/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/04f3191d-7ab9-435c-9ece-34991195670c>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c4d9949d-d444-4060-b7f8-1cdda4969b58>
-  dct:type <http://localhost/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/11a147c7-a81c-4e05-a8d3-a0123e2c3420>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/34237251-ee8e-4daf-9a9b-5d12fecac11d>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/94b7f1c9-e962-407f-a939-cb653a135f75>
-  dct:type <http://localhost/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c768de59-01fe-4271-b239-950af377a628>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/718faac5-12c3-4750-9c4d-c84759bd1e2c>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/ade40c3e-39bd-46ab-958a-98c80412ce57>
-  dct:type <http://localhost/data/ns/data-processing/types/18c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/18c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5f064900-a6a4-4d65-acc1-e0587b2efbac>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/50fc2135-0ff0-4f45-ac0c-1b2e045df793>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/644d8a35-c091-44ff-933a-683ce12131de>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/21863e6b-21fa-4931-8c8e-3df9ca45017d>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/1244f6ec-7f0b-43be-8544-f1377bfd4dbc>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5f70a0b6-cf1d-4717-855f-a592b59f2817>
-  dct:type <http://localhost/data/ns/data-processing/types/6b9dde71-4c82-ef11-ac20-6045bd98ed2e> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/6b9dde71-4c82-ef11-ac20-6045bd98ed2e> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5040ec14-dd7e-47e7-9ed0-f12dc064dae4>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5670d9c1-4ee6-4f77-b41e-19145358d881>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c723bcc6-e673-4fe6-96ca-c43836a830c3>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a92ce5bf-4cf6-4be2-8282-5911c77e18f3>
-  dct:type <http://localhost/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/0ebb74bb-3ec8-4e68-aab3-8471e6ebad92>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c2843ff7-3672-46d4-980b-0d03bbc6831e>
-  dct:type <http://localhost/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/7219300e-81a8-4cdf-abd2-d86148014a54>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/282f1db7-4a30-4105-9e6e-7918ffc43fbf>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/17be0c03-0024-4ba1-8594-d2416105b5d4>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/99cde913-7f66-4438-814c-22e9b5a7d369>
-  dct:type <http://localhost/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/32c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/85f301ab-5adc-43cd-89fb-bac0131e0005>
-  dct:type <http://localhost/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/32f5cdad-127d-4d87-897c-7e2516ef51a0>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/4dc086fb-53fd-416a-95a8-e2cbd70a9f13>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/fd505aba-0012-40ef-92f4-54af1e40de88>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/df5b5721-bd66-4065-97cc-e0734a2b919d>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/befbfaef-8d69-4ae3-93fa-68c050aeb557>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/18b94e41-cf67-4959-a62a-11a0a6027c19>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a7e00c61-4bdb-4f21-97d4-6f67c73505d7>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/7bd2e487-9dc1-4c7c-8b55-181d9b6d8c2b>
-  dct:type <http://localhost/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/fd8e5e4d-ff78-4d22-88a7-e51e5fdca59a>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/13955e50-094c-401a-9a2d-706a5aaf7bb8>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/13b309f1-2552-4ac3-aed9-69cfc838e591>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/237daa14-32cb-4de2-b3c8-97bc0c866e4d>
-  dct:type <http://localhost/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/8fccf882-7c76-4f64-9413-084254020772>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/6d1c4de0-257b-4f58-aaf9-d1d15d769f6e>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/16ae4af6-e389-4a73-861c-f591cd4f319e>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/69a86101-d3ab-4809-88c1-1fc725328529>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b803d976-7131-4401-adfc-65b96e3e18f7>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e94ef7b9-6cb5-46c5-a5c0-724fd845d256>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b6192889-db56-4c06-84ee-211a2547a0ef>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/98f0b175-2e1e-4b2f-9427-846903c9dda4>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c2aa455c-c6ca-44ae-9eb4-24391ae4b993>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/11c07354-471d-4623-aab5-bf132758897c>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a7648c47-93a5-436a-b395-29728db44201>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/6ff3a8c3-67a5-4444-b4ee-7cfc7dfa3431>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/9ed31488-f6a8-47fe-84ef-9242f8ad48c2>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/41b1ce2c-6858-47e0-aa8c-5b40e1387c2a>
-  dct:type <http://localhost/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c180fd6b-3cee-4004-905b-1c7b17929668>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/bde1a78b-e78c-4980-8b26-1e8621bca201>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a19ef8e5-b7e2-46f5-9a00-c309822419e0>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/05ba0e5f-520a-435c-a0a6-a1a8a4ca2a11>
-  dct:type <http://localhost/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/8de1a2da-0474-48b6-8dee-37a38608fd37>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a015b64d-d86b-41f1-9389-e7c130237f7a>
-  dct:type <http://localhost/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/ce4f4133-9b38-4403-8580-15b228e4a899>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/bb628ced-42bb-46cc-83a6-c7951ff27cf1>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/59015f48-71d1-4b76-b720-b0f9c6100f0c>
-  dct:type <http://localhost/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/07dfda72-074c-41b1-858f-277c79aa1e98>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c6982e63-9c5e-4977-9b11-6711d0b84863>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/01582599-b907-43ab-9f90-33a62b3ab761>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a1a99d9d-5826-4e71-8a29-d9b002f2f200>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/ad990a46-54b3-4a43-8929-f7c4ada11ef8>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/31034da5-0acb-4677-9b7c-87cb0dd195f9>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5453bf74-77af-4c3e-b3dc-83119d24c0fd>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b9549f53-17f2-4786-913d-effa3e34e5b1>
-  dct:type <http://localhost/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/7c943d1a-e6e3-47ae-8ee7-639a43e007b3>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/593550d5-4386-4878-9e54-8c9a3ac518a7>
-  dct:type <http://localhost/data/ns/data-processing/types/16c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/16c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/ef7894d9-4d42-4601-ad9a-1f784fdd5da4>
-  dct:type <http://localhost/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/22c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/cbb96503-ce37-4259-a8e7-7df91b839acf>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/16a03349-8b62-4e43-9c75-00c7c090557d>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/7cf8f881-21f3-44e1-ac25-4e01adcf5937>
-  dct:type <http://localhost/data/ns/data-processing/types/0ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/5f1549bd-f43e-4474-a90f-f9ae868c1b43>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b09f4ca9-173b-4217-ba15-73538083fd2c>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/645c5b01-6012-413c-803f-353c0bd1eeff>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c47c7c51-941b-46b8-b74d-bd60e1b68c84>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/9c352dc9-389a-497c-9b0e-b02a6d91754d>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/b75d029a-f05d-43e4-983b-ceb3b5799dcf>
-  dct:type <http://localhost/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0ac587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/dfa60eee-aa35-4c78-891d-08ca659a0471>
-  dct:type <http://localhost/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/0cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/4bce2b39-bf85-4084-b7c2-920dcc743ead>
-  dct:type <http://localhost/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/10c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/11c9a9e3-c7f5-4e2b-ba7b-a6ddec9b0ae9>
-  dct:type <http://localhost/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/14c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/e9694132-8fa5-4a67-9de1-e206aac05724>
-  dct:type <http://localhost/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/24c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/64e109df-f29d-4bb0-9f72-12249b86a086>
-  dct:type <http://localhost/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/26c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/1248c328-3f35-4528-a886-d68a86c44427>
-  dct:type <http://localhost/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1ec587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/caf59dda-b6cf-4ad6-bad0-f86e3a24a0bc>
-  dct:type <http://localhost/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/9d783184-af59-e811-80da-005056933a48> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/fce741ac-3f95-459a-a8d6-37af6f6ef1d2>
-  dct:type <http://localhost/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/a1fceaf4-775a-e811-80d7-0050569345aa> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/a4691494-d3b8-436a-92e1-5d5231465837>
-  dct:type <http://localhost/data/ns/data-processing/types/18c587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/18c587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/c4408f4f-a8c4-4143-b786-e36959d9a640>
-  dct:type <http://localhost/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/1cc587d2-6648-e811-80dd-005056932858> .
 
 <https://qa.stad.gent/id/data-processing/personal-data/dc919c74-9429-4046-ac55-bb17929f16f7>
-  dct:type <http://localhost/data/ns/data-processing/types/bcb13b37-357f-ef11-ac21-6045bd8d509e> .
+  dct:type <http://stad.gent/data/ns/data-processing/types/bcb13b37-357f-ef11-ac21-6045bd8d509e> .

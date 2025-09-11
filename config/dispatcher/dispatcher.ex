@@ -23,7 +23,7 @@ defmodule Dispatcher do
   # this is a quick hack because the frontend (metis) expects the true uri (with /id) but that goes to cool-uris.
   # another option is to have these view urls in the data
   get "/data/data-processing/activities/*uuid", %{ layer: :redirects, accept: %{ html: true } } do
-    base_url = "https://stad.gent"
+    base_url = System.get_env("BASE_URI") || "https://stad.gent"
     resource_url = "#{base_url}/id/data-processing/activities/#{Enum.join(uuid, "/")}"
     encoded_resource = URI.encode_www_form(resource_url)
     redirect_url = "/data/view/verwerkings-activiteit?resource=#{encoded_resource}"
