@@ -26,7 +26,7 @@ defmodule Dispatcher do
     base_url = "https://stad.gent"
     resource_url = "#{base_url}/id/data-processing/activities/#{Enum.join(uuid, "/")}"
     encoded_resource = URI.encode_www_form(resource_url)
-    redirect_url = "/data/views/verwerkings-activiteit?resource=#{encoded_resource}"
+    redirect_url = "/data/view/verwerkings-activiteit?resource=#{encoded_resource}"
 
     conn
     |> put_resp_header("location", redirect_url)
@@ -67,7 +67,7 @@ defmodule Dispatcher do
     forward conn, path, "http://virtuoso:8890/sparql/"
   end
 
-  get "/data/views/*path", %{ layer: :static, accept: %{ html: true } } do
+  get "/data/view/*path", %{ layer: :static, accept: %{ html: true } } do
     forward conn, path, "http://frontend/data/"
   end
 
