@@ -1,0 +1,13 @@
+services:
+  resource-labels:
+    platform: linux/amd64
+  uri-info:
+    platform: linux/amd64
+  resource-labels-cache:
+    platform: linux/amd64
+  identifier:
+    platform: linux/amd64
+  dispatcher:
+    platform: linux/amd64
+  cool-uris:
+    platform: linux/amd64

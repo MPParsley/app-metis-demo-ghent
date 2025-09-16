@@ -12,8 +12,10 @@ Then replace https://qa.stad.gent with http://localhost to get a uri like http:/
 ## Local development
 
 ```sh
-docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d
+docker compose -f docker-compose.yml -f docker-compose.dev.yml -f docker-compose.amd.yml up -d
 cd frontend-metis-ghent
+nvm use
+npm ci
 npm run start -- -proxy http://localhost
 ```
 
