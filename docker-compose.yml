@@ -7,7 +7,7 @@ x-logging:
 
 services:
   resource-labels:
-    image: lblod/resource-label-service:0.3.1
+    image: lblod/resource-label-service:0.3.2
     restart: always
     environment:
       DEFAULT_LANGUAGE: 'nil'
