@@ -16,3 +16,6 @@ services:
   frontend:
     environment:
       EMBER_METIS_BASE_URL: "https://qa.stad.gent/"
+  cool-uris:
+    ports:
+      - "8080:8080"
