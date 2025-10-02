@@ -11,18 +11,18 @@ services:
     restart: always
     environment:
       DEFAULT_LANGUAGE: 'nil'
-      MU_SPARQL_ENDPOINT: https://stad.gent/sparql
+      MU_SPARQL_ENDPOINT: http://virtuoso:8890/sparql
     logging: *default-logging
   uri-info:
     image: redpencil/mu-uri-info-service:feature-query-without-aplication-graph
     environment:
-      MU_SPARQL_ENDPOINT: https://stad.gent/sparql
+      MU_SPARQL_ENDPOINT: http://virtuoso:8890/sparql
   resource-labels-cache:
     image: semtech/mu-cache:2.0.2
     links:
       - resource-labels:backend
     environment:
-      MU_SPARQL_ENDPOINT: https://stad.gent/sparql      
+      MU_SPARQL_ENDPOINT: http://virtuoso:8890/sparql      
   identifier:
     image: semtech/mu-identifier:1.10.3
     environment:
