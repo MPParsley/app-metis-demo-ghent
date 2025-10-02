@@ -2,23 +2,17 @@ services:
   nginx:
     image: arm64v8/nginx
   resource-labels:
-    platform: linux/amd64    
+    platform: linux/amd64
   uri-info:
-    platform: linux/amd64    
+    platform: linux/amd64
   resource-labels-cache:
-    platform: linux/amd64    
+    platform: linux/amd64
   identifier:
     image: nvdk/mu-identifier:latest
-    platform: linux/arm64    
+    platform: linux/arm64
   dispatcher:
-    platform: linux/amd64    
-#  frontend:
-#    platform: linux/amd64    
+    platform: linux/amd64
   virtuoso:
     platform: linux/arm64
-#    ports:
-#      - "8891:8890"
   cool-uris:
     platform: linux/amd64
-#    ports:
-#      - "8080:8080"
