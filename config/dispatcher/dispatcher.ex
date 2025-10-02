@@ -80,7 +80,7 @@ defmodule Dispatcher do
 
   match "/data/*path", %{ layer: :frontend_fallback, accept: %{ html: true } } do
     # We forward path for fastboot
-    forward conn, path, "http://frontend/"
+    forward conn, path, "http://frontend/data/"
   end
 
 
