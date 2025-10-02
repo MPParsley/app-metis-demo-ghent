@@ -26,7 +26,14 @@ defmodule Dispatcher do
     base_url = System.get_env("BASE_URI") || "https://stad.gent"
     resource_url = "#{base_url}/id/data-processing/activities/#{Enum.join(uuid, "/")}"
     encoded_resource = URI.encode_www_form(resource_url)
-    redirect_url = "/data/view/verwerkings-activiteit?resource=#{encoded_resource}"
+
+    # Preserve embed parameter if present
+    embed_param = case conn.query_string |> URI.decode_query() |> Map.get("embed") do
+      nil -> ""
+      embed_value -> "&embed=#{URI.encode_www_form(embed_value)}"
+    end
+
+    redirect_url = "/data/view/verwerkings-activiteit?resource=#{encoded_resource}#{embed_param}"
 
     conn
     |> put_resp_header("location", redirect_url)
