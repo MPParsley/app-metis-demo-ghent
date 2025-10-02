@@ -49,3 +49,6 @@ flycheck_*.el
 
 # IDE
 .idea
+
+/frontend-metis-ghent/public/*
+/data/db/*
