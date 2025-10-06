@@ -46,37 +46,47 @@ defmodule Dispatcher do
     forward conn, [], "http://frontend/data/index.html"
   end
 
-  # get "/sparql", %{ layer: :static, accept: %{ html: true} } do
-  #   forward conn, [], "http://frontend/index.html"
-  # end
+  get "/data", %{ layer: :frontend_fallback, accept: %{ html: true } } do
+    forward conn, [], "http://frontend/data/index.html"
+  end
+
+  get "/data/", %{ layer: :frontend_fallback, accept: %{ html: true } } do
+    forward conn, [], "http://frontend/data/index.html"
+  end
+
+  get "/data/*path", %{ layer: :frontend_fallback, accept: %{ html: true } } do
+    forward conn, path, "http://frontend/data/"
+  end
 
   # API SERVICES
-  match "/resource-labels/*path", %{ layer: :api_services, accept: %{ json: true } } do
+  match "/data/resource-labels/*path", %{ layer: :api_services, accept: %{ json: true } } do
     forward conn, path, "http://resource-labels/"
   end
 
-  get "/uri-info/*path", %{ layer: :api_services, accept: %{ json: true } } do
+  get "/data/uri-info/*path", %{ layer: :api_services, accept: %{ json: true } } do
     forward conn, path, "http://uri-info/"
+  end
+
+
+  # SPARQL
+  match "/sparql/*path", %{ layer: :sparql } do
+    forward conn, path, "http://virtuoso:8890/sparql/"
+  end
+
+  # AUTH SPARQL & Virtuoso for internal access
+  match "/sparql-auth/*path", %{ layer: :sparql } do
+    forward conn, path, "http://virtuoso:8890/sparql-auth/"
+  end
+
+  match "/sparql-graph-crud-auth/*path", %{ layer: :sparql } do
+    forward conn, path, "http://virtuoso:8890/sparql-graph-crud-auth/"
   end
 
   match "/conductor/*path", %{ layer: :sparql } do
     forward conn, path, "http://virtuoso:8890/conductor/"
   end
 
-  match "/sparql/*path", %{ layer: :sparql } do
-    forward conn, path, "http://virtuoso:8890/sparql/"
-  end
-
-  get "/data/views/*path", %{ layer: :static, accept: %{ html: true } } do
-    forward conn, path, "http://frontend/data/"
-  end
-
-  match "/data/*path", %{ layer: :sparql } do
-    forward conn, path, "http://virtuoso:8890/data/"
-  end
-
-
- # fallback routes
+  # fallback routes
   get "/*path", %{ layer: :frontend_fallback, accept: %{ html: true } } do
     # We forward path virtuoso
     forward conn, path, "http://virtuoso:8890/"
