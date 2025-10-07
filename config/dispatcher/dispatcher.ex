@@ -78,8 +78,13 @@ defmodule Dispatcher do
     forward conn, path, "http://frontend/data/"
   end
 
-  match "/data/*path", %{ layer: :sparql } do
-    forward conn, path, "http://virtuoso:8890/data/"
+  match "/data/turtle/*path", %{ layer: :sparql } do
+    forward conn, path, "http://virtuoso:8890/data/turtle/id/"
+  end
+
+  match "/*path", %{ layer: :frontend_fallback, accept: %{ html: true } } do
+    # We forward path for fastboot
+    forward conn, path, "http://frontend/"
   end
 
 
