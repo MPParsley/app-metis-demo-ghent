@@ -10,6 +10,8 @@ services:
   identifier:
     image: nvdk/mu-identifier:latest
     platform: linux/arm64
+  frontend:
+    platform: linux/amd64
   dispatcher:
     platform: linux/amd64
   virtuoso:
