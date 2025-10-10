@@ -40,7 +40,7 @@ defmodule Dispatcher do
     |> send_resp(302, "")
   end
 
- # frontend
+  # frontend
   get "/data/assets/*path", %{ layer: :static } do
     forward conn, path, "http://frontend/data/assets/"
   end
@@ -88,7 +88,7 @@ defmodule Dispatcher do
   end
 
 
- # fallback routes
+  # fallback routes
   get "/*path", %{ layer: :frontend_fallback, accept: %{ html: true } } do
     # We forward path virtuoso
     forward conn, path, "http://virtuoso:8890/"
