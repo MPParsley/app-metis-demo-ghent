@@ -8,6 +8,8 @@ services:
     depends_on:
       - identifier
   virtuoso:
+#    ports:
+#      - "8890:8890"
     volumes:
       - ./data/dev-data:/data/toLoad
       - ./data/logs:/data/logs
@@ -18,5 +20,5 @@ services:
     environment:
       EMBER_METIS_BASE_URL: "https://qa.stad.gent/"
   cool-uris:
-    ports:
-      - "8080:8080"
+#    ports:
+#      - "8080:8080"
