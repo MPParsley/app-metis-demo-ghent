@@ -58,11 +58,11 @@ defmodule Dispatcher do
   # end
 
   # API SERVICES
-  match "/resource-labels/*path", %{ layer: :api_services, accept: %{ json: true } } do
+  match "/data/resource-labels/*path", %{ layer: :api_services, accept: %{ json: true } } do
     forward conn, path, "http://resource-labels/"
   end
 
-  get "/uri-info/*path", %{ layer: :api_services, accept: %{ json: true } } do
+  get "/data/uri-info/*path", %{ layer: :api_services, accept: %{ json: true } } do
     forward conn, path, "http://uri-info/"
   end
 
