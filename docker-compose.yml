@@ -59,7 +59,7 @@ services:
       - ./data/db/:/data/:Z
   
   cool-uris:
-    image: nvdk/cool-uris:latest
+    image: nvdk/cool-uris:2.1.0
     environment:
       SPARQL_ENDPOINT: http://virtuoso:8890/sparql
     logging: *default-logging
